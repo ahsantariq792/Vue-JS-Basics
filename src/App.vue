@@ -6,10 +6,13 @@ import GetValuesfromInputField from './components/GetValuesfromInputField.vue';
 import if_else from './components/if-else.vue';
 import Forloop from './components/forloop.vue';
 import Child from "./components/passdata/Child.vue"
-import Parent from './components/passdata/Parent.vue';
+// import Parent from './components/passdata/Parent.vue';
 import HtmlBinding from './components/HtmlBinding.vue';
 import ClassBinding from './components/ClassBinding.vue';
 import UseRef from './components/useRef.vue';
+import Watchers from './components/Watchers.vue';
+import DynamicallyLoading from './components/DynamicallyLoading/DynamicallyLoading.vue'
+// import Parent from './components/Slots/Parent.vue';
 </script>
 
 <template>
@@ -24,7 +27,9 @@ import UseRef from './components/useRef.vue';
     <!-- <Parent/> -->
     <!-- <HtmlBinding/>
     <ClassBinding/> -->
-    <UseRef/>
+    <!-- <UseRef/> -->
+    <!-- <Watchers/> -->
+    <DynamicallyLoading/>
   </main>
 </template>
 
