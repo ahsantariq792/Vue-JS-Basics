@@ -12,6 +12,7 @@ import ClassBinding from './components/ClassBinding.vue';
 import UseRef from './components/useRef.vue';
 import Watchers from './components/Watchers.vue';
 import DynamicallyLoading from './components/DynamicallyLoading/DynamicallyLoading.vue'
+import RangeSelector from './components/RangeSelector.vue';
 // import Parent from './components/Slots/Parent.vue';
 </script>
 
@@ -30,6 +31,7 @@ import DynamicallyLoading from './components/DynamicallyLoading/DynamicallyLoadi
     <!-- <UseRef/> -->
     <!-- <Watchers/> -->
     <DynamicallyLoading/>
+    <RangeSelector/>
   </main>
 </template>
 
